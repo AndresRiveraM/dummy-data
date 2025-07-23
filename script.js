@@ -3,7 +3,7 @@ const apellidos = ["Gómez", "Ramírez", "Torres", "López", "Martínez", "Hern�
 
 function generarCorreo(nombre, apellido) {
   const dominio = ["gmail.com", "hotmail.com", "outlook.com"];
-  return \`\${nombre.toLowerCase()}.\${apellido.toLowerCase()}@\${dominio[Math.floor(Math.random() * dominio.length)]}\`;
+  return `${nombre.toLowerCase()}.${apellido.toLowerCase()}@${dominio[Math.floor(Math.random() * dominio.length)]}`;
 }
 
 function fechaNacimientoAleatoria() {
