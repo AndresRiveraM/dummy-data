@@ -34,6 +34,20 @@ button {
   border: none;
   cursor: pointer;
 }
+#descargarSQL {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+#descargarSQL:disabled {
+  background: #999;
+  cursor: not-allowed;
+}
+
 
 pre {
   background: #eee;
